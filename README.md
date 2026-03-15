@@ -6,16 +6,15 @@
 
 ### 移除赞助者限制
 
-> 允许 **OP 等级 4** 使用原本仅限赞助者使用的命令和开发者专属指令
+> 允许 **[权限等级](https://zh.minecraft.wiki/w/权限等级)4** 使用原本仅限赞助者使用的命令和开发者专属指令
 
 ### 开发者专属指令
 
-> 提供 `/wathe:lockToSupporters` 指令，原本为开发者UUID专属指令，现在允许 OP 等级 4 使用
+> `/wathe:lockToSupporters` 指令，原为开发者UUID的专属<br>
+> 用于开关赞助者指令的调试指令
 
-
-## 使用
-
-安装后无需额外配置，拥有 OP 等级 4 的玩家将自动获得使用赞助者命令的权限。
+## 下载
+前往[Releases](https://github.com/xyBakaQAQ/WatheMixin/releases)下载最新构建
 
 ## 许可证
 

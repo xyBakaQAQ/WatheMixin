@@ -1,15 +1,15 @@
 {
-	"required": true,
-	"package": "com.xybaka.wathemixin.mixin",
-	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-		"ExampleMixin",
-		"LockToSupportersCommandMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
-	},
-	"overwrites": {
-		"requireAnnotations": true
+  "required": true,
+  "package": "com.xybaka.wathemixin.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "LockToSupportersCommandMixin",
+    "WatheSupporterMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
 	}
 }
